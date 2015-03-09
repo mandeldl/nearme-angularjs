@@ -4,5 +4,5 @@ app.controller('MainController', ['$scope', 'places', function($scope) {
 	  lng: -74.004897,
 	  zoom: 17
 	};
-
+	$scope.geodata = places.success(data);
 }]);
