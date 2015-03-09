@@ -1,1 +1,1 @@
-var NearMeApp = angular.module('NearMeApp',[]);
+var app = angular.module('NearMeApp',[]);
