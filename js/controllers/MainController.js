@@ -5,4 +5,5 @@ app.controller('MainController', ['$scope', 'places', function($scope) {
 	  zoom: 17
 	};
 	$scope.geodata = places.success(data);
+	$scope.mapMarkers = geodataToMarkers($scope.geodata);
 }]);
